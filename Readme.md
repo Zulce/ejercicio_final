@@ -1,7 +1,7 @@
 Parte 2
 Escribe en la terminal
 
-echo Parte2 ******************\*\*\*******************
+echo Parte2 ********\*\*********\*\*\*********\*\*********
 
 A través de la consola genera un archivo llamado
 @tu_nombre.md
@@ -27,9 +27,34 @@ muevete a la rama SCRUM
 Parte 3
 Escribe en la terminal
 
-echo Parte3 **********\*\*\*\***********\*\*\***********\*\*\*\***********
+echo Parte3 ****\*\*****\*\*\*\*****\*\*****\*\*\*****\*\*****\*\*\*\*****\*\*****
 
 Contesta las siguientes preguntas
+Parte 4
+Escribe en la terminal
+echo Parte4 \***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***\*\***\*\*\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*\*\***
+
+1. Menciona los 3 tipos de merge
+   Regular, Straigth Forward y Recursivo
+2. para que sirve el alias?
+
+3. cual es el comando para crear ramas y movernos a ellas en una sola linea?
+   git checkout -b [nombre de la nueva ram]
+
+4. Cual es la diferencia entre git y github
+   Git es un versionador de archivos, mientras que Github es una plataforma en la que se comparten archivos de proyectos, se crea discusión en torno a soluciones y mejoras. Y finalmente son dos herramientas que se ocupan íntimamente.
+
+5. Que has entendido por devops?
+   He entendido que es un paradigma el cual aborda el problema de desarrollar software uniendo tanta la parte de desarrollo como de la operación con la finalidad de agilizar los tiempos de implementación y mejora continua.
+
+6. Haz un rebase de la rama SCRUM a esta rama
+   de tal suerte que tendras la parte 2 3 y 4 en este documento
+
+Cuando termines muevete a la rama Android
+
+Parte 3
+Escribe en la terminal
+echo Parte3 \***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***
 
 1. Que es SCRUM?
    Es una metodología de trabaja colaborativa que se enfoca en la efiencia y consistencia de los avances progresivos para completar un proyecto estableciendo un porqué se hará (un proyecto, producto, etc.), qué se hará para lograrlo y un cómo se hará.
