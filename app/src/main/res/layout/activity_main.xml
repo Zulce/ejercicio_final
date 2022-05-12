@@ -7,12 +7,14 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:layout_weight="1"
         android:background="@color/black">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -97,6 +99,53 @@
 
     </LinearLayout>
 
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:orientation="horizontal"
+          android:layout_weight="1"
+          android:background="@color/purple_700">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:text="Jugador:"
+          android:textColor="@color/white">
+      </TextView>
+
+          <TextView
+              android:id="@+id/cnombre"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:text="Manuel"
+              android:textColor="@color/white"
+              android:textColorHighlight="@color/purple_500">
+      </TextView>
+
+           <TextView
+               
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Puntaje:"
+               android:textColor="@color/white">
+       </TextView>
+
+               <TextView
+                   android:id="@+id/cpuntaje"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:text="50"              
+                   android:textColor="@color/white">
+           </TextView>
+
+           </LinearLayout>
+
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -147,4 +196,4 @@
         />
 
 
-</TableLayout>
+    </TableLayout>

@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     public TextView c7;
     public TextView c8;
     public TextView c9;
+    public TextView cnom;
+    public TextView cpuntos;
 
     public int contador_secuencia;
     public int contador_meta;
@@ -97,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
         c7 = (TextView) findViewById(R.id.c7);
         c8 = (TextView) findViewById(R.id.c8);
         c9 = (TextView) findViewById(R.id.c9);
+        cnom = (TextView) findViewById(R.id.cnombre);
+        cpuntos = (TextView) findViewById(R.id.cpuntaje);
         c0.setBackgroundColor(secuencia[0]);
         c1.setBackgroundColor(secuencia[1]);
         c2.setBackgroundColor(secuencia[2]);
@@ -163,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
         if(secuencia[contador_secuencia] == i)
         {
             contador_secuencia++;
+            cpuntos.setText(String.valueOf(i));
             if(contador_secuencia == contador_meta)
             {
                 contador_secuencia = 0;

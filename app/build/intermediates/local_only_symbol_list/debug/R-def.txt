@@ -27,6 +27,8 @@ id c6
 id c7
 id c8
 id c9
+id cnombre
+id cpuntaje
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round

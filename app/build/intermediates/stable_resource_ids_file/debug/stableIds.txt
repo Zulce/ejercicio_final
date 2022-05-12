@@ -1,3 +1,4 @@
+com.example.memorygame:id/cpuntaje = 0x7f0801eb
 com.example.memorygame:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f10003f
 com.example.memorygame:styleable/TextInputLayout = 0x7f110088
 com.example.memorygame:style/Theme.AppCompat.DayNight.Dialog = 0x7f1001dc
@@ -2574,6 +2575,7 @@ com.example.memorygame:attr/layout_marginBaseline = 0x7f030263
 com.example.memorygame:style/Theme.Material3.Light.DialogWhenLarge = 0x7f10020a
 com.example.memorygame:attr/defaultQueryHint = 0x7f03013d
 com.example.memorygame:dimen/abc_alert_dialog_button_bar_height = 0x7f060010
+com.example.memorygame:id/cnombre = 0x7f0801ea
 com.example.memorygame:color/m3_sys_color_dark_surface_variant = 0x7f05013e
 com.example.memorygame:attr/thumbElevation = 0x7f0303eb
 com.example.memorygame:layout/test_design_radiobutton = 0x7f0b0068

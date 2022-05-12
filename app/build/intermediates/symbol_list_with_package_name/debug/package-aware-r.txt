@@ -2647,6 +2647,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id cnombre
 id collapseActionView
 id compress
 id confirm_button
@@ -2659,6 +2660,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id cpuntaje
 id currentState
 id custom
 id customPanel
