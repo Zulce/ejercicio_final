@@ -2,7 +2,7 @@ Parte 5
 
 Escribe en la terminal
 
-echo Parte5 **************************\*\***************************
+echo Parte5 ************\*\*************\*\*************\*\*************
 
 1. Haz un merge de la rama android a esta rama
 
@@ -114,3 +114,17 @@ echo Parte3 \***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\***\*\*\*\*\***\*\*\*
 Cuando termines haz un merge de personal info a este branch
 de tal suerte que este archivo debe contener la Parte 2 y 3 juntas
 Muevete a la rama git_github
+
+# Hola!!
+
+Haz un Fork de este repositorio, después clonalo a tu local
+
+Parece que hay un error en el código de este branch, pero... antes funcionaba
+
+Antes de empezar teclea history -c
+
+Recuerdas que comando utilizar para encontrar el error?
+
+Utiliza el comando para encontrar el commit culpable y haz un revert para arreglarlo
+
+Cuando termines haz un checkout a la rama personal_info
